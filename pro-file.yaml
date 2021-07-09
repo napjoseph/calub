@@ -1,5 +1,45 @@
 sections:
-  - name: 'Work Experience'
+  - title: 'Header'
+    meta:
+      displayHeader: false
+    ofType: 'header'
+    ofValue:
+      introText: 'Curriculum Vitae of'
+      fullName: 'Nap Joseph Calub'
+  - title: 'Information Snippets'
+    meta:
+      displayHeader: false
+    ofType: 'information-snippets'
+    ofValue:
+      - title: 'Website'
+        value: 'napjose.ph'
+        linkTo: 'https://napjose.ph'
+        icon:
+          prefix: 'fas'
+          iconName: 'globe-asia'
+      - title: 'Email'
+        value: 'hello@napjose.ph'
+        linkTo: 'mailto:hello@napjose.ph'
+        icon:
+          prefix: 'far'
+          iconName: 'envelope'
+      - title: 'Mobile'
+        value: '+63 922 896 2503'
+        linkTo: 'callto:+639228962503'
+        icon:
+          prefix: 'fas'
+          iconName: 'mobile-alt'
+      - title: 'Address'
+        value: 'Tanauan City, Batangas, Philippines 4232'
+        linkTo: 'https://www.google.com/maps/place/Tanauan,+Batangas/@14.0912399,121.0738416,13z'
+        icon:
+          prefix: 'fas'
+          iconName: 'map-marker-alt'
+  - title: 'Divider'
+    meta:
+      displayHeader: false
+    ofType: 'divider'
+  - title: 'Work Experience'
     icon:
       prefix: 'fas'
       iconName: 'briefcase'
@@ -71,7 +111,7 @@ sections:
             startDate: 'September 2013'
             endDate: 'January 2016'
             description: "I created web applications using Python (Django and Flask) and front-end frameworks like AngularJS, Chaplin.js, and Bootstrap. I also created and deployed cross-platform mobile applications using Appcelerator Titanium, which served thousands of daily users. As a way to give back to the community, I also facilitated the training of high school students to create web applications using Python/Django, to improve their school's current information systems."
-  - name: 'Certifications'
+  - title: 'Certifications'
     icon:
       prefix: 'fas'
       iconName: 'certificate'
